@@ -1,0 +1,26 @@
+.hero-left-content{
+    margin-top: 240px;
+    width: 100%;
+    p{
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        letter-spacing: 7px;
+        font-size: var(--hero-pera-font-size);
+        color: var(--hero-part-color);
+        padding-bottom: 20px;
+    }
+    h1{
+        font-weight: 400;
+        padding-bottom: 40px;
+        color: var(--pragraph-color);
+        font-family: 'Open Sans', sans-serif;
+        font-size: var(--hero-heading-font-size);
+        span{
+            font-weight: 700;
+            font-size: 70px;
+            color: var(--pragraph-color);
+            font-family: 'Open Sans', sans-serif;
+
+        }
+    }
+}

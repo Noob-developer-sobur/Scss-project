@@ -1,0 +1,114 @@
+.logo-item{
+    margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.item-two{
+    display: flex;
+    float: right;
+    p{
+        font-size: 22px;
+        font-family: 'Open Sans',sans-serif;
+        color: var(--defult-color);
+        margin-right: 100px;
+    }
+    .redy-item{
+        font-size: 22px;
+        font-family: 'Open Sans',sans-serif;
+        padding: 15px 30px;
+        border-radius: 10px;
+        background-color: #FFA343;
+        color: var(--defult-black-color);
+        &:hover{
+            transition: all linear .3s;
+            background-color: #fff;
+        }
+    }
+
+}
+.mid-gap{
+    margin-top: 50px;
+    /* width: 50%;
+    display: flex;
+    flex-wrap: wrap; */
+    
+ }
+
+ .footer-list-item{
+     display: flex;
+    .footer-main-content{
+        width: 33%;
+    }
+    h4{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFD1A0;
+    }
+    .footer-li{
+        a{
+            display: inline-block;
+            font-family: 'Open Sans',sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 40px;
+            color: #fff;
+             transition: .4s;
+            &:hover{
+                color: #FFA343;
+            }
+        }
+        
+    }
+}
+.footer-left{
+    
+    .footer-heading{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;  
+        color: #fff;
+        padding-bottom: 50px;
+    }
+    .footer-paragraph{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    a{
+        color: #fff;
+        i{
+            font-size: 23px;
+            margin-right: 20px;
+            margin-top: 20px;
+            &:hover{
+                transition: all linear .3s;
+                color: #FFA343;
+            }
+        }
+    }
+}
+.copyright-item{
+    margin-top: 50px;
+    text-align: center;
+    p{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        opacity: 50%;
+        a{
+            color: #fff;
+            opacity: 50%;  
+            &:hover{
+                color: #FFA343;
+            }
+        }
+    }
+}

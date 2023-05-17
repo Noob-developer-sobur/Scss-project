@@ -1,0 +1,12 @@
+.menu-li{
+    margin: 0 50px;
+    .menu-a{
+        color: var(--pragraph-color);
+        font-family: 'Open Sans', sans-serif;
+        font-size: var(--heading-menu-font-size);
+        &:hover{
+            color: black;
+            transition: all linear .4s;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+:root {
+    --pragraph-color: #ffffff;
+    --defult-color: #ffffff;
+    --defult-black-color: #000000;
+    --heading-color: #ffffff;
+    --heading-menu-font-size: 18px;
+    --hero-heading-font-size: 65px;
+    --hero-part-color: #ffc178;
+    --hero-pera-font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, span{
+    margin: 0;
+    padding: 0;
+}
